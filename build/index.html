@@ -12,23 +12,23 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../dist/output.css">
+  <link rel="stylesheet" href="./css/output.css">
   <script src="./app.js" defer></script>
 </head>
 <body>
 
   <div class="max-w-6xl	w-10/12 mx-auto mb-5 h-screen"> <!-- big container -->
     <header class="flex justify-between items-center py-11 h-12 mb-2">
-      <img class="w-16 h-16 object-contain" src="../assets/images/logo.svg" alt="Company logo">
-      <img data-menu="open" class="w-8 h-8 object-contain lg:hidden" src="../assets/images/icon-menu.svg" alt="" srcset="">
-      <img data-menu="close" class="w-8 h-8 object-contain lg:hidden absolute right-6 z-40 hidden" src="../assets/images/icon-menu-close.svg" alt="" srcset=""> <!-- when menu active state absolute top-5 right-5 z-30 -->
+      <img class="w-16 h-16 object-contain" src="./assets/images/logo.svg" alt="Company logo">
+      <img data-menu="open" class="w-8 h-8 object-contain lg:hidden" src="./assets/images/icon-menu.svg" alt="" srcset="">
+      <img data-menu="close" class="w-8 h-8 object-contain lg:hidden absolute right-6 z-40 hidden" src="./assets/images/icon-menu-close.svg" alt="" srcset=""> <!-- when menu active state absolute top-5 right-5 z-30 -->
 
       <nav id="responsive-nav" class="hidden lg:flex items-center justify-between list-none z-30"> <!-- absolute top-0 right-0 bg-white w-6/12 h-screen py-32 px-5 when clicking on menu -->
-        <li class="nav-li mr-12 hover:text-red-400">Home</li><!-- mb-6 when clicking the menu -->
-        <li class="nav-li mr-12 hover:text-red-400">New</li>
-        <li class="nav-li mr-12 hover:text-red-400">Popular</li>
-        <li class="nav-li mr-12 hover:text-red-400">Trending</li>
-        <li class="nav-li">Categories</li>
+        <li class="nav-li mr-12 hover:text-red-400 cursor-pointer">Home</li><!-- mb-6 when clicking the menu -->
+        <li class="nav-li mr-12 hover:text-red-400 cursor-pointer">New</li>
+        <li class="nav-li mr-12 hover:text-red-400 cursor-pointer">Popular</li>
+        <li class="nav-li mr-12 hover:text-red-400 cursor-pointer">Trending</li>
+        <li class="nav-li hover:text-red-400 cursor-pointer">Categories</li>
       </nav>
     </header>
     <div id="bg-blur" class="absolute top-0 left-0 w-screen h-screen -z-10"></div>
@@ -37,11 +37,11 @@
       <article class="future-of-the-web mb-8 col-start-1 col-end-3	">
         <picture>
           <source media="(max-width: 700px)"
-                  srcset="../assets/images/image-web-3-mobile.jpg">
+                  srcset="./assets/images/image-web-3-mobile.jpg">
           <source media="(min-width: 710px)"
-                  srcset="../assets/images/image-web-3-desktop.jpg">
+                  srcset="./assets/images/image-web-3-desktop.jpg">
   
-          <img class="w-full h-auto" src="../assets/images/image-web-3-mobile.jpg" alt="Main web's logo">
+          <img class="w-full h-auto" src="./assets/images/image-web-3-mobile.jpg" alt="Main web's logo">
         </picture>
 
         <div class="lg:grid grid-cols-2 gap-4 lg:mt-4"> 
@@ -80,7 +80,7 @@
   
       <footer class="lg:grid grid-cols-3 col-span-full">
         <div class="flex mb-5">
-          <img class="w-20 h-auto mr-5" src="../assets/images/image-retro-pcs.jpg" alt="">
+          <img class="w-20 h-auto mr-5" src="./assets/images/image-retro-pcs.jpg" alt="">
           <div class="left-side flex-auto flex flex-col justify-between">
             <h3 class="text-2xl font-extrabold text-gray-400 mb-1">01</h3>
             <div>
@@ -91,7 +91,7 @@
         </div>
   
         <div class="flex mb-5">
-          <img class="w-20 h-auto mr-5" src="../assets/images/image-top-laptops.jpg" alt="">
+          <img class="w-20 h-auto mr-5" src="./assets/images/image-top-laptops.jpg" alt="">
           <div class="left-side flex-auto flex flex-col justify-between">
             <h3 class="text-2xl font-extrabold text-gray-400 mb-1">02</h3>
             <div>
@@ -102,7 +102,7 @@
         </div>
   
         <div class="flex mb-5">
-          <img class="w-20 h-auto mr-5" src="../assets/images/image-gaming-growth.jpg" alt="">
+          <img class="w-20 h-auto mr-5" src="./assets/images/image-gaming-growth.jpg" alt="">
           <div class="left-side flex-auto flex flex-col justify-between">
             <h3 class="text-2xl font-extrabold text-gray-400 mb-1">03</h3>
             <div>
