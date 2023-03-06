@@ -1,7 +1,7 @@
 {
   "name": "news-homepage-main",
   "version": "1.0.0",
-  "description": "![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "tailwindcss -i ./input.css -o ./build/css/output.css --watch",
